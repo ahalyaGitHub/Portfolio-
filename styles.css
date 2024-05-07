@@ -1,10 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Beth+Ellen&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Inconsolata:wght@200..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #E6CEE4;
 }
@@ -18,15 +18,18 @@ nav ul {
     margin-left: 25%;
     margin-top: 3%;
 }
+
 nav li {
     padding: 0 3%;
 }
+
 nav a {
     text-decoration: none;
     color: black;
     transition: 0.1s;
     padding-bottom: 10%;
 }
+
 nav a:hover {
     border-bottom: 3px solid #FA7741;
 }
@@ -36,42 +39,48 @@ header {
     flex-direction: row;
     height: 100vh;
 }
+
 header img {
     margin-top: 6%;
 }
 
-.p {
+.welcome_div {
     font-family: "Beth Ellen", cursive;
     font-size: 30px;
 }
-.d {
+
+.header_div {
     margin-top: 11%;
     margin-left: 3%;
 }
 
-.d p {
+.header_div p {
     font-family: "Roboto Mono", monospace;
     font-weight: bolder;
     font-size: x-large;
     margin-top: -0.5%;
 }
-.d ul {
+
+.header_div ul {
     list-style-type: none;
     display: flex;
     margin: 3% 0;
 }
-.d li {
+
+.header_div li {
     padding: 5% 5%;
     border-left: 2px solid #FA7741;
     font-size: larger;
     font-family: "Roboto Mono", monospace;
     font-weight: bolder;
 }
-.a {
+
+.header_a {
     margin-top: 10%;
     margin-left: 10%;
 }
-.a1 {
+
+.btn_contactMe {
     text-decoration: none;
     color: black;
     font-family: "Roboto Mono", monospace;
@@ -81,12 +90,14 @@ header img {
     padding: 2% 5%;
     transition: 0.1s;
 }
-.a1:hover {
+
+.btn_contactMe:hover {
     color: white;
     border-color: #FA7741;
     background-color: #FA7741;
 }
-.a2 {
+
+.btn_resume {
     text-decoration: none;
     color: #FA7741;
     font-family: "Roboto Mono", monospace;
@@ -97,11 +108,13 @@ header img {
     transition: 0.1s;
     margin-left: 5%;
 }
-.a2:hover {
+
+.btn_resume:hover {
     color: white;
     border-color: black;
     background-color: black;
 }
+
 span {
     color: #FA7741;
     font-family: "Roboto Mono", monospace;
@@ -109,14 +122,17 @@ span {
     font-size: larger;
     margin-left: 5%;
 }
+
+
 section {
     display: flex;
     flex-direction: row;
     background-color: #FEFEFE;
     height: 100vh;
 }
+
 .moving-img {
-    animation: moveUpDown 2s infinite alternate; 
+    animation: moveUpDown 2s infinite alternate;
     margin-top: 9%;
 }
 
@@ -124,12 +140,130 @@ section {
     0% {
         transform: translateY(0);
     }
+
     100% {
         transform: translateY(-20px);
     }
 }
 
+
+.section_div {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    margin-top: 13%;
+}
+
+.school_div,
+.ug_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.school_div img {
+    padding-left: 12%;
+    padding-bottom: 5%;
+}
+
+.ug_div img {
+    padding-left: 10%;
+}
+
+.b {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 2%;
+}
+
+.p2,
+.p1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1px solid #FA7741;
+    background-color: #FA7741;
+    padding: 2%;
+}
+
+.kec_div {
+    width: 70%;
+    padding-left: 6%;
+    border-bottom: 2px solid #E6CEE4;
+}
+
+.avp_div {
+    padding-left: 6%;
+    border-bottom: 2px solid #E6CEE4;
+}
+
+.p3 {
+    font-family: "Roboto Mono", monospace;
+    font-size: small;
+}
+
+.a3 {
+    margin-top: 2%;
+}
+
 footer {
+    font-family: "Roboto Mono", monospace;
     background-color: #E6CEE4;
-    height: 50vh;
+}
+
+.footer_div {
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+    padding: 10% 0;
+}
+
+.contactMe {
+    border-right: 3px solid #FA7741;
+    padding-left: 20%;
+    font-weight: bolder;
+    font-size: xx-large;
+    width: 30%;
+}
+
+.footer_content {
+    font-family: "Roboto Mono", monospace;
+    font-size: large;
+    margin-right: 10%;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    padding-top: 8%;
+    margin-left: 5%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.fa {
+    color: white;
+    font-size: xx-large;
+    padding: 35%;
+}
+
+.fa-google {
+    background-color: red;
+
+}
+
+.fa-linkedin {
+    background-color: rgb(38, 106, 165);
+}
+
+.fa-github {
+    background-color: black;
+}
+
+.fa-instagram {
+    background: linear-gradient(135deg, #F9CE34, #EE2A7B, #6228D7);
 }
