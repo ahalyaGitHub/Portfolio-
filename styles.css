@@ -12,7 +12,7 @@ body {
 nav ul {
     display: flex;
     list-style-type: none;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: large;
     margin-left: 25%;
@@ -55,7 +55,7 @@ header img {
 }
 
 .header_div p {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: x-large;
     margin-top: -0.5%;
@@ -68,10 +68,10 @@ header img {
 }
 
 .header_div li {
-    padding: 5% 5%;
+    padding: 0% 5%;
     border-left: 2px solid #FA7741;
     font-size: larger;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-weight: bolder;
 }
 
@@ -83,7 +83,7 @@ header img {
 .btn_contactMe {
     text-decoration: none;
     color: black;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: larger;
     border: 2px solid black;
@@ -100,7 +100,7 @@ header img {
 .btn_resume {
     text-decoration: none;
     color: #FA7741;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: larger;
     border: 2px solid #FA7741;
@@ -117,7 +117,7 @@ header img {
 
 span {
     color: #FA7741;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: larger;
     margin-left: 5%;
@@ -150,8 +150,8 @@ section {
 .section_div {
     display: flex;
     flex-direction: column;
-    gap: 10%;
-    margin-top: 13%;
+    gap: 6%;
+    
 }
 
 .school_div,
@@ -161,8 +161,8 @@ section {
 }
 
 .school_div img {
-    padding-left: 12%;
-    padding-bottom: 5%;
+    padding-left: 11%;
+    padding-bottom: 5.5%;
 }
 
 .ug_div img {
@@ -170,7 +170,7 @@ section {
 }
 
 .b {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: larger;
     margin-top: 2%;
@@ -178,7 +178,7 @@ section {
 
 .p2,
 .p1 {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-size: larger;
     font-weight: bolder;
     border: 1px solid #FA7741;
@@ -198,16 +198,36 @@ section {
 }
 
 .p3 {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-size: small;
 }
 
 .a3 {
     margin-top: 2%;
 }
-
+.edu_div {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    padding-top: 8%;
+    margin-left:50%;
+}
+.skills_div {
+    margin-left: 30%;
+}
+.skills_div p {
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1px solid #FA7741;
+    background-color: #FA7741;
+    padding: 2%;
+}
+.skills_div img {
+    margin-top: 5%;
+}
 footer {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     background-color: #E6CEE4;
 }
 
@@ -227,7 +247,7 @@ footer {
 }
 
 .footer_content {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-size: large;
     margin-right: 10%;
 }
