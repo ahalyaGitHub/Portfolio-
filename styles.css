@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -11,11 +12,11 @@ body {
 
 nav ul {
     display: flex;
+    font-family: "Mulish", sans-serif;
     list-style-type: none;
-    font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: large;
-    margin-left: 25%;
+    margin-left: 30%;
     margin-top: 3%;
 }
 
@@ -55,25 +56,27 @@ header img {
 }
 
 .header_div p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: bolder;
-    font-size: x-large;
-    margin-top: -0.5%;
+    font-size: xx-large;
+    margin-top: 2%;
 }
 
 .header_div ul {
     list-style-type: none;
     display: flex;
-    margin: 3% 0;
+    margin: 5% 0;
+   
 }
 
 .header_div li {
-    padding: 0% 5%;
-    border-left: 2px solid #FA7741;
+    padding: 1% 5%;
+    border-left: 3px solid #FA7741;
     font-size: larger;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: bolder;
 }
+
 
 .header_a {
     margin-top: 10%;
@@ -83,7 +86,7 @@ header img {
 .btn_contactMe {
     text-decoration: none;
     color: black;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: bolder;
     font-size: larger;
     border: 2px solid black;
@@ -100,7 +103,7 @@ header img {
 .btn_resume {
     text-decoration: none;
     color: #FA7741;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: bolder;
     font-size: larger;
     border: 2px solid #FA7741;
@@ -117,7 +120,7 @@ header img {
 
 span {
     color: #FA7741;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: bolder;
     font-size: larger;
     margin-left: 5%;
@@ -170,7 +173,7 @@ section {
 }
 
 .b {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: bolder;
     font-size: larger;
     margin-top: 2%;
@@ -206,7 +209,7 @@ section {
     margin-top: 2%;
 }
 .edu_div {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: bold;
     font-size: x-large;
     padding-top: 8%;
@@ -216,7 +219,7 @@ section {
     margin-left: 30%;
 }
 .skills_div p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-size: larger;
     font-weight: bolder;
     border: 1px solid #FA7741;
@@ -227,7 +230,7 @@ section {
     margin-top: 5%;
 }
 footer {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     background-color: #E6CEE4;
 }
 
@@ -247,7 +250,7 @@ footer {
 }
 
 .footer_content {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-size: large;
     margin-right: 10%;
 }
@@ -287,3 +290,4 @@ footer a {
 .fa-instagram {
     background: linear-gradient(135deg, #F9CE34, #EE2A7B, #6228D7);
 }
+
